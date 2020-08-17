@@ -1,0 +1,8 @@
+# Generic
+.DS_Store
+*.log
+
+# Node
+/node_modules/
+npmlist.json
+npm-debug.log
