@@ -173,7 +173,7 @@ const setupServer = function()
 		// Reduce log verbosity in production
 		process.env.NODE_ENV === 'production' ?
 		{
-			level: 'warn'
+			level: 'info'
 		} :
 		{
 			level: 'info',
