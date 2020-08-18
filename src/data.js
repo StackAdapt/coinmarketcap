@@ -37,7 +37,7 @@ const _parse = function (file, options = { header: true, skipEmptyLines: true })
 
 	const path = require ('path'     );
 	const papa = require ('papaparse');
-	const fs   = require ('fs'       );
+	const fs   = require ('fs-extra' );
 
 	// Make the file relative to __dirname
 	const f = path.join (__dirname, file);
