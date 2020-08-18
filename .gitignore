@@ -1,6 +1,7 @@
 # Generic
 .DS_Store
 *.log
+/logs/
 
 # Node
 /node_modules/
